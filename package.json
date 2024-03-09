@@ -1,0 +1,28 @@
+{
+	"name": "logger-kaldr",
+	"version": "0.1.0",
+	"description": "Simple logger for client-side errors",
+	"license": "LGPL-3.0",
+	"keywords": ["log", "web", "server", "http"],
+	"preferGlobal": true,
+	"bin": {
+		"kaldr": "bin/kaldr"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ujjibalu12/logger-kaldr.git"
+	},
+	"dependencies": {
+		"node-js-crixalis": ">=0.4.3",
+		"optimist": "*",
+		"coffee-script": "*",
+		"vows": "*"
+	},
+	"engines": {
+		"node": ">=0.6.0"
+	},
+	"scripts": {
+		"test": "make test",
+		"start": "bin/kaldr"
+	}
+}
